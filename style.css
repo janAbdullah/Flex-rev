@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width:4px;
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(red, orange);
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+nav, .left, .right{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.delivery, .pickup{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size:20px;
+    background-color: #1C1816;
+    padding:8px;
+    color:white;
+    border-radius: 6px;
+}
+.bucket{
+    position: relative;
+}
+.bucket h6{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:black
+}
+.right button{
+    color: white;
+    background-color: #EA002A;
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+}
+.delivery{
+    border:2px solid #EA002A
+}
+nav{
+    width:90%;
+    margin:auto
+}
+.front{
+    background-image: url("https://www.kfcpakistan.com/images/08873930-3f62-11f0-87c6-c7cd48868ce1-Webbanner_desktop_image-2025-06-02033113.jpg");
+    height:75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reorder button{
+    width:60%;
+    display:block;
+    margin:auto;
+    color:white;
+    background-color: #EA002A;
+    padding:10px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.round-cards{
+    display: flex;
+    gap:1rem;
+    width:80%;
+    margin: auto;
+}
+.e-cards img{
+    width: 100%;
+}
+.explore{
+    width:75%;
+    margin: auto;
+    padding:40px
+}
+.explore hr{
+    width:5%;
+    background:#EA002A;
+    height:2px;
+    border:none
+}
+.e-cards{
+    background-color: #1C1816;
+    border-radius: 50% 50% 10px 50%;
+    transition: all 0.5s;
+    position:relative;
+    padding:20px 20px 30px 20px
+}
+.e-cards:hover{
+            transform: translateY(-20px);
+}
+.e-cards hr{
+    width:35%;
+    position:absolute;
+    bottom:10%;
+    left:35%;
+    background-color: #EA002A;
+    height:4px;
+    border:none;
+}
+.e-cards h5{
+    position:absolute;
+    bottom:13%;
+    left:35%;
+}
+.e-cards .dot{
+    width:20px;
+    height:20px;
+    background-color: black;
+    border-radius: 50%;
+    position:absolute;
+    bottom:10px;
+    right:10px
+}
+.selling-cards{
+    display: flex;
+    gap:1rem;
+
+    margin:1rem 0;
+}
+.sellers{
+    width:75%;
+    margin:auto;
+}
+.s-text hr{
+        width:8%;
+        background-color: #EA002A;
+        height:4px;
+        border:none;
+}
+.s-text{
+    padding:10px
+}
+.s-cards{
+    background-color: #1C1816;
+    padding:0 0 0 1rem;
+}
+.price{
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 29% 50%, 0% 0%);
+background-color: #EA002A;
+text-align: right;
+width:38%;
+margin-left:auto;
+margin-top:3%;
+padding:5px;
+margin-right: 0;
+}
+.red-dot{
+    width:20px;
+    height: 25px;
+    background-color: #EA002A;
+}
+.dots{
+    display:flex;
+    gap:7px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.deals-cards{
+    display: flex;
+    gap:1rem;
+    margin: 1rem 0;
+}
+.deal-card img{
+    width:100%;
+}
+.deal-card{
+    background-color: #1C1816;
+    border-radius: 10px;
+    padding:0 0 1rem 1rem;
+    position: relative;
+}
+.deals{
+    width:75%;
+    margin: auto;
+}
+.deal-title{
+    margin:15px 0;
+}
+.deal-price{
+    margin: 15px 0;
+}
+.deal-card:hover .deal-img{
+    scale:1.2;
+}
+.deal-img{
+    transition: all 0.5s;
+}
+.deal-image{
+    overflow: hidden;
+}
+.deal-card i{
+    color:#EA002A;
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+.deals-text hr{
+        width:10%;
+        background-color: #EA002A;
+        height:4px;
+        border:none;
+}
+.deals-text{
+    padding:10px;
+}
+.add-button button{
+    background-color: #EA002A;
+    color: white;
+    border:none;
+    padding:0.5rem;
+    text-transform: uppercase;
+    font-weight:bolder;
+    margin:auto;
+    display: block;
+    margin-bottom:-2rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.add-button button:hover{
+    background-color: white;
+    color:#EA002A;
+    border:2px solid #EA002A;
+}
